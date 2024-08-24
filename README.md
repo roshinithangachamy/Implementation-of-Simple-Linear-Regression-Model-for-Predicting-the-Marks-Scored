@@ -98,6 +98,10 @@ print('RMSE = ',rmse)
 
 ![image](https://github.com/user-attachments/assets/cc454a00-abf1-46c9-bfce-65a65e209aed)
 
+![image](https://github.com/user-attachments/assets/effa326e-a9f4-4b19-bb09-20b878eb6bfc)
+
+![image](https://github.com/user-attachments/assets/82ef0481-93d5-4969-bfd9-54aa4c0cfc11)
+
 ![Screenshot 2024-08-24 090634](https://github.com/user-attachments/assets/15f80ceb-ad49-4eff-be30-d55cd88c08d7)
 
 ![Screenshot 2024-08-24 090643](https://github.com/user-attachments/assets/1ec6b822-0ece-4f24-9fe1-0803d6937729)
