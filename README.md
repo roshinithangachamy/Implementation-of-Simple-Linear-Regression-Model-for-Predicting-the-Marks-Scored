@@ -32,9 +32,9 @@ df.head()
 df.tail()
 # segregating data to variables
 X=df.iloc[:,:-1].values
-X
+print("X:",X)
 Y=df.iloc[:,1].values
-Y
+print("Y:",Y)
 # splitting training and test data
 from sklearn.model_selection import train_test_split
 X_train,X_test,Y_train,Y_test=train_test_split(X,Y,test_size=1/3,random_state=0)
@@ -44,7 +44,9 @@ regressor.fit(X_train,Y_train)
 Y_pred=regressor.predict(X_test)
 # displaying predicted values
 Y_pred
+print("Y_pred:",Y_pred)
 Y_test
+print("Y_test:",Y_test)
 # graph plot for training data
 plt.scatter(X_train,Y_train,color="orange")
 plt.plot(X_train,regressor.predict(X_train),color="red")
@@ -70,28 +72,35 @@ print('RMSE = ',rmse)
 
 ## Output:
 
-![Screenshot 2024-08-24 090451](https://github.com/user-attachments/assets/dbe7969d-33e6-47a2-8cf1-db842272c37b)
+HEAD:
+![image](https://github.com/user-attachments/assets/e69d04be-18df-4c63-8b87-9581b51c6f4d)
 
-![Screenshot 2024-08-24 090503](https://github.com/user-attachments/assets/86efaf97-5759-45c1-8cdc-54e768946ca0)
+TAIL:
+![image](https://github.com/user-attachments/assets/91c47099-db08-4665-b763-9658e74037d5)
 
-![Screenshot 2024-08-24 090516](https://github.com/user-attachments/assets/56357c81-25a4-4dd7-9110-977c9f266433)
+X:
+![image](https://github.com/user-attachments/assets/412d8f40-51eb-4d1e-81aa-be409fa3149c)
 
-![image](https://github.com/user-attachments/assets/cc454a00-abf1-46c9-bfce-65a65e209aed)
+Y:
+![image](https://github.com/user-attachments/assets/2da88b09-0cbf-441a-b061-b62fedd38089)
 
-![image](https://github.com/user-attachments/assets/effa326e-a9f4-4b19-bb09-20b878eb6bfc)
+Y_PRED:
+![image](https://github.com/user-attachments/assets/9f4d36d3-4de2-416d-8ca7-978fb8392bba)
 
-![image](https://github.com/user-attachments/assets/82ef0481-93d5-4969-bfd9-54aa4c0cfc11)
+Y_TEST:
+![image](https://github.com/user-attachments/assets/2931b3c5-22de-44e6-8bcb-b51df08c8673)
 
-![Screenshot 2024-08-24 090634](https://github.com/user-attachments/assets/15f80ceb-ad49-4eff-be30-d55cd88c08d7)
+TRAINING SET:
+![download](https://github.com/user-attachments/assets/2dedabd9-4458-4649-8ab2-0e6bcced3edf)
 
-![Screenshot 2024-08-24 090643](https://github.com/user-attachments/assets/1ec6b822-0ece-4f24-9fe1-0803d6937729)
+TEST SET:
+![download](https://github.com/user-attachments/assets/31467f20-2c4c-4780-adfd-f45f64cffe82)
 
-![Screenshot 2024-08-24 090654](https://github.com/user-attachments/assets/cbbf89cc-c815-4ce1-97ad-1c96b782c83d)
+MSE:
+![image](https://github.com/user-attachments/assets/eae1218f-801d-43cd-aed9-388952d57fba)
 
-![Screenshot 2024-08-24 090703](https://github.com/user-attachments/assets/f84d05fe-7b58-4c48-b8c2-45fbfe4c8010)
-
-![Screenshot 2024-08-24 090710](https://github.com/user-attachments/assets/6e05218e-beb2-4935-a148-6056a7837635)
-
+RMSE:
+![image](https://github.com/user-attachments/assets/401d7762-92b4-42e2-aa63-71b7cb62c5d7)
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
