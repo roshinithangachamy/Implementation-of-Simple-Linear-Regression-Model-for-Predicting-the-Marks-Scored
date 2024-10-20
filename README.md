@@ -1,9 +1,12 @@
 # Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
 
+
 ## AIM:
+
 To write a program to predict the marks scored by a student using the simple linear regression model.
 
 ## Equipments Required:
+
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
@@ -18,6 +21,7 @@ To write a program to predict the marks scored by a student using the simple lin
 7.Compare the graphs and hence we obtained the linear regression for the given datas.
 
 ## Program:
+
 ```
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by: T.Roshini
@@ -73,33 +77,43 @@ print('RMSE = ',rmse)
 ## Output:
 
 #### HEAD:
+
 ![image](https://github.com/user-attachments/assets/e69d04be-18df-4c63-8b87-9581b51c6f4d)
 
 #### TAIL:
+
 ![image](https://github.com/user-attachments/assets/91c47099-db08-4665-b763-9658e74037d5)
 
 #### X:
+
 ![image](https://github.com/user-attachments/assets/412d8f40-51eb-4d1e-81aa-be409fa3149c)
 
 #### Y:
+
 ![image](https://github.com/user-attachments/assets/2da88b09-0cbf-441a-b061-b62fedd38089)
 
 #### Y_PRED:
+
 ![image](https://github.com/user-attachments/assets/9f4d36d3-4de2-416d-8ca7-978fb8392bba)
 
 #### Y_TEST:
+
 ![image](https://github.com/user-attachments/assets/2931b3c5-22de-44e6-8bcb-b51df08c8673)
 
 #### TRAINING SET:
+
 ![download](https://github.com/user-attachments/assets/2dedabd9-4458-4649-8ab2-0e6bcced3edf)
 
 #### TEST SET:
+
 ![download](https://github.com/user-attachments/assets/31467f20-2c4c-4780-adfd-f45f64cffe82)
 
 #### MSE:
+
 ![image](https://github.com/user-attachments/assets/eae1218f-801d-43cd-aed9-388952d57fba)
 
 #### RMSE:
+
 ![image](https://github.com/user-attachments/assets/401d7762-92b4-42e2-aa63-71b7cb62c5d7)
 
 ## Result:
