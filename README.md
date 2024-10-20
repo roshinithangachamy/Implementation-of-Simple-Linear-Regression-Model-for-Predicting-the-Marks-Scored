@@ -71,11 +71,13 @@ print('RMSE = ',rmse)
 ```
 
 ## Output:
-
+```
 HEAD:
+```
 ![image](https://github.com/user-attachments/assets/e69d04be-18df-4c63-8b87-9581b51c6f4d)
-
+```
 TAIL:
+```
 ![image](https://github.com/user-attachments/assets/91c47099-db08-4665-b763-9658e74037d5)
 
 X:
